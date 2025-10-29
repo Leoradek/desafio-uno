@@ -1,0 +1,32 @@
+/* app/globals.css */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Contenedor para las tarjetas */
+.card-container {
+  display: flex; /* Esto usa Flexbox, como en Flexbox Froggy ;) */
+  flex-wrap: wrap; /* Si no caben, van abajo */
+  gap: 15px; /* Espacio entre tarjetas */
+}
+
+/* Estilo de cada tarjeta */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #0070f3;
+}
